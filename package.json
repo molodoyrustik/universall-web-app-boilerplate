@@ -1,0 +1,9 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "cd project && npm run build && cd ../ && pm2 start apps.pm2.json --env production"
+  }
+}
